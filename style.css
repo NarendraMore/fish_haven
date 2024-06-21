@@ -1,0 +1,55 @@
+.fade-in {
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.slide-in-left {
+    animation: slideInLeft 1s ease-in-out;
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-right {
+    animation: slideInRight 1s ease-in-out;
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.header-background {
+    background-image: url('images/colorful-tropical-fish-16163-1920x1200.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.lead{
+    color: white;
+}
+.display-4{
+    color: white;
+}
+.Imagestyle{
+    height: 20px;
+    width: 20px;
+}

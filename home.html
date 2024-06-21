@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home Service Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">  <img src="images/logo.png" alt="Fish Haven Logo" style="width: 5rem;height: 5rem;" class="d-inline-block">Fish Haven</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header class="jumbotron text-center fade-in header-background" >
+        <div class="container">
+            <h1 class="display-4">Welcome to Fish Haven</h1>
+            <p class="lead" >Your one-stop solution for home services.</p>
+            <a class="btn btn-primary btn-lg" href="#services" role="button" style="background-color: brown;border: none;">Learn more</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="container text-center my-5">
+        <h2 class="slide-in-left">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 slide-in-left">
+                <h3>Cleaning</h3>
+                <p>Professional home cleaning services.</p>
+            </div>
+            <div class="col-md-4 col-sm-12 slide-in-right">
+                <h3>Plumbing</h3>
+                <p>Expert plumbing solutions for your home.</p>
+            </div>
+            <div class="col-md-4 col-sm-12 slide-in-left">
+                <h3>Electrical</h3>
+                <p>Reliable electrical services by certified professionals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-md-6 slide-in-left">
+                <h2>About Us</h2>
+                <p>We are a dedicated team of professionals providing top-notch home services to make your life easier. Our team is experienced, reliable, and committed to delivering the best services to our clients.</p>
+            </div>
+            <div class="col-md-6 slide-in-right">
+                <img src="about-us-image.jpg" class="img-fluid" alt="About Us">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5 text-center">
+        <h2 class="slide-in-left">Contact Us</h2>
+        <form class="slide-in-right">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
